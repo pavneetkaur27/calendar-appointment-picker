@@ -7,7 +7,7 @@
 
 NOTE: Backend server is running on PORT: 5010
 
-## How to run the ## How to run the CALENDAR APPOINTMENT PICKER FRONTEND
+## How to run the CALENDAR APPOINTMENT PICKER FRONTEND
 1. In another terminal, navigate to the `calendar-frontend` directory.
 2. Run `npm install` to install all dependencies.
 3. Run `npm run start` or `npm run local` to run in local environment. 

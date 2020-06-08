@@ -103,11 +103,12 @@ export const addUserAppointmennt = (data) => dispatch => {
     stopLoader(dispatch);
     if (response && response.data.success && response.data) {
       dispatch({
-        type: "FETCHED_APPOINTEMENTS", 
-        payload: {
-          appointments : response.data.data.appointments
+        type: "SHOW_NOTIFY", payload: {
+          type: 'success',
+          message: "Appointment Scheduled",
+          dispatch: dispatch
         }
-      })
+      });
       return response;
     } else {
       return dispatch({
